@@ -1,0 +1,1 @@
+html:has(:modal[open]){overflow:hidden}dialog.svelte-4bmo4r:modal{box-shadow:3px 3px 10px #00000080;overscroll-behavior:contain}dialog.svelte-4bmo4r::backdrop{-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);overscroll-behavior:contain}
