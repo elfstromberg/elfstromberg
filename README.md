@@ -1,3 +1,0 @@
----
-title: Henrietta Elfström Berg
----
