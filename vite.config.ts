@@ -13,7 +13,6 @@ md.renderer.rules.hr = () => {
 
 export default defineConfig({
 	plugins: [
-		enhancedImages(),
 		markdown.plugin({
 			mode: [
 				markdown.Mode.HTML,
@@ -21,6 +20,7 @@ export default defineConfig({
 			],
 			markdownIt: md
 		}),
+		enhancedImages(),
 		sveltekit()
 	]
 });

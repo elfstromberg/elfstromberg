@@ -43,7 +43,7 @@
 
     <div id="work" class="container px-4 gap-4 py-16 columns-1 sm:columns-2 md:columns-3 mx-auto">
         {#each Object.entries(images) as [src, img]}
-            <button on:click={() => modal = src}>
+            <button on:click={() => modal = img.default}>
                 <!-- svelte-ignore a11y-missing-attribute -->
                 <img class="mt-4" src={img.default} />
             </button>
