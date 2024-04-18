@@ -15,8 +15,8 @@
                     </div>
                 </nav>
     
-                <div class="grow text-center flex flex-col lg:justify-center">
-                    <h1 class="max-lg:mt-16 font-bold text-6xl text-white font-display">Henrietta Elfström Berg</h1>
+                <div class="grow text-center flex flex-col justify-center">
+                    <h1 class="max-lg:mt-16 font-bold text-6xl text-white">Henrietta Elfström Berg</h1>
                 </div>
             </div>
         </div>
