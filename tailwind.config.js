@@ -3,6 +3,20 @@ export default {
   content: ["./src/**/*.{html,js,svelte,ts}"],
   theme: {
     extend: {
+      fontFamily: {
+        'display': [
+          "ui-rounded", 
+          "Hiragino Maru Gothic ProN", 
+          "Quicksand", 
+          "Comfortaa", 
+          "Manjari", 
+          "Arial Rounded MT", 
+          "Arial Rounded MT Bold", 
+          "Calibri", 
+          "source-sans-pro", 
+          "sans-serif"
+        ]
+      },
       height: {
         'screen-90': '90vh',
       },
